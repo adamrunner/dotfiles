@@ -88,7 +88,11 @@ fi
 alias ll='ls -halF'
 alias la='ls -A'
 alias l='ls -CF'
-
+alias filecount='ls -l | wc -l'
+alias gs='git status'
+alias gb='git branch'
+alias gc='git checkout'
+alias be='bundle exec'
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
@@ -112,15 +116,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+export EDITOR='vim'
 
 alias speed="wget --output-document=/dev/null http://speedtest.wdc01.softlayer.com/downloads/test500.zip"
 alias wanip="curl http://ifconfig.co"
-
+alias mount='mount |column -t'
 function ipinfo() { curl "http://ipinfo.io/$1"; }
-
-alias gs="git status"
-alias gc="git checkout"
-alias gb="git branch"
-
-export EDITOR=vim
-
+alias mkdir='mkdir -pv'
+alias apt-get='sudo apt-get'
