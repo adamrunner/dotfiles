@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<map name="AssignmentPanels">
+		<value name="InfoPopupVisible">false</value>
+	</map>
+	<map name="Backup">
+		<value name="Version">5.4.98</value>
+	</map>
+	<map name="CommonSettings">
+		<value name="DemoDeviceModeEnabled">false</value>
+	</map>
+	<map name="DataCollectionSettings">
+		<value name="dataConsent">true</value>
+		<value name="iCueSettingsEventHash">21ee9bd148a2b72551310c38a42ea246</value>
+		<value name="iCueSettingsEventSent">false</value>
+		<value name="inited">true</value>
+		<value name="machine_id">d5e2e3033d7b48d0ccb25eaa5b20fc8a</value>
+		<value name="muralsStatisticsEventHash">313b2bf6fa0fa8215e973e2bfd108299</value>
+		<value name="previous_close_timestamp">1701579034926</value>
+		<value name="session_ended">false</value>
+		<value name="total_icue_starts">3</value>
+		<value name="user_id">5a58ab2d5d37072d1c79d34203492c86e439e39c2e054e1e38879327f41c7ed6</value>
+	</map>
+	<map name="DeviceListWatcher">
+		<value name="device_list_saved_correctly">false</value>
+	</map>
+	<map name="Devices">
+		<map name="DARK CORE PRO SE">
+			<map name="{f3ccad59-748a-4fd9-91f1-46f873cc73a7}">
+				<value name="BrightnessLevel">100</value>
+				<value name="FirstDetected">2023-07-27T23:50:26.593Z</value>
+				<binary name="Layout">%00%00%04%00%00%00%00%00%1Ccue%3A%3Aglobal%3A%3AKeyboardLayout%00%00%00%00%02%001</binary>
+				<binary name="LedChannelCounts">%00%00%04%00%00%00%00%00%0DQVector%3Cint%3E%00%00%00%00%00</binary>
+				<binary name="LedChannelExtensionsTypes">%00%00%04%00%00%00%00%006QVector%3CQVector%3Ccue%3A%3Adev%3A%3Amanifest%3A%3ALedChannelType%3E%20%3E%00%00%00%00%01%00%00%00%00</binary>
+				<binary name="LedChannelSynchronizations">%00%00%04%00%00%00%00%00%0EQVector%3Cbool%3E%00%00%00%00%00</binary>
+				<binary name="LedChannelTypeCombinations">%00%00%04%00%00%00%00%006QVector%3CQVector%3Ccue%3A%3Adev%3A%3Amanifest%3A%3ALedChannelType%3E%20%3E%00%00%00%00%00</binary>
+				<binary name="LedChannelTypes">%00%00%04%00%00%00%00%00%2CQVector%3Ccue%3A%3Adev%3A%3Amanifest%3A%3ALedChannelType%3E%00%00%00%00%01%00%00%00%0CNotConnected</binary>
+				<value name="LightingMode">Software</value>
+				<value name="PowerSaveModeEnabled">false</value>
+				<value name="SleepModeEnabled">true</value>
+				<value name="SleepModeWaitDelaySec">900</value>
+				<value name="UniqueDeviceId">{4f70087d-7a4a-465c-a7aa-219169e0ecfb}</value>
+				<value name="UniqueDongleId">{2514248b-74ce-40c5-8e40-b7554e09c691}</value>
+			</map>
+		</map>
+		<map name="DARK CORE PRO SE DONGLE">
+			<map name="{6c75b342-726c-46ef-a465-fe2aa0360122}">
+				<value name="FirstDetected">2023-07-27T23:50:26.521Z</value>
+				<binary name="Layout">%00%00%04%00%00%00%00%00%1Ccue%3A%3Aglobal%3A%3AKeyboardLayout%00%00%00%00%02%001</binary>
+				<binary name="LedChannelCounts">%00%00%04%00%00%00%00%00%0DQVector%3Cint%3E%00%00%00%00%00</binary>
+				<binary name="LedChannelExtensionsTypes">%00%00%04%00%00%00%00%006QVector%3CQVector%3Ccue%3A%3Adev%3A%3Amanifest%3A%3ALedChannelType%3E%20%3E%00%00%00%00%01%00%00%00%00</binary>
+				<binary name="LedChannelSynchronizations">%00%00%04%00%00%00%00%00%0EQVector%3Cbool%3E%00%00%00%00%00</binary>
+				<binary name="LedChannelTypeCombinations">%00%00%04%00%00%00%00%006QVector%3CQVector%3Ccue%3A%3Adev%3A%3Amanifest%3A%3ALedChannelType%3E%20%3E%00%00%00%00%00</binary>
+				<binary name="LedChannelTypes">%00%00%04%00%00%00%00%00%2CQVector%3Ccue%3A%3Adev%3A%3Amanifest%3A%3ALedChannelType%3E%00%00%00%00%01%00%00%00%0CNotConnected</binary>
+				<value name="LightingMode">Software</value>
+				<value name="UniqueDeviceId">{5abee97f-a97c-4e6e-9305-084bfc161c33}</value>
+			</map>
+		</map>
+		<binary name="UniqueDeviceIds">%00%00%04%00%00%00%00%005QHash%3CQUuid%2CUniqueDeviceIdStorage%3A%3AUniqueDeviceData%3E%00%00%00%00%02%F3%CC%ADYt%8AO%D9%91%F1F%F8s%CCs%A7%00%00%1B%1C%00%00%1B~%00%00%00%20%001%009%001%000%002%00C%001%002%003%008%003%00F%00F%008%00E%00C%00%00%00%08s%16v%C3%C7WC%06lu%B3BrlF%EF%A4e%FE%2A%A06%01%22%00%00%1B%1C%00%00%1B%7F%00%00%00%20%00E%005%008%003%008%00D%001%005%008%00D%009%006%008%00D%00E%003%00%00%00%08s%16v%C3%C7WC%06</binary>
+	</map>
+	<map name="HWPInfoPopup">
+		<value name="InfoPopupVisible">false</value>
+	</map>
+	<value name="Language">en</value>
+	<value name="LastDataCollectionConsentAppVersion">5.4.98</value>
+	<value name="LastLoadedAppVersion">5.4.98</value>
+	<map name="LightingLibraryStorage">
+		<value name="version">401</value>
+	</map>
+	<map name="Lightings">
+		<map name="Instant">
+			<value name="Enabled">false</value>
+		</map>
+	</map>
+	<map name="Privacy">
+		<value name="DataCollectionConsent">true</value>
+		<value name="DataCollectionConsentTimestamp">27 Jul 2023 16:50:21 -0700</value>
+	</map>
+	<map name="Storage Locations">
+		<value name="-Users-adamrunner-Library-Application Support-Corsair-CUE5-dpi-dpi.cuelibrary">true</value>
+		<value name="-Users-adamrunner-Library-Application Support-Corsair-CUE5-eq_presets-limitedequalizerpresets.cuelibrary">true</value>
+		<value name="-Users-adamrunner-Library-Application Support-Corsair-CUE5-eq_presets-unlimitedequalizerpresets.cuelibrary">true</value>
+		<value name="-Users-adamrunner-Library-Application Support-Corsair-CUE5-quicklightingzones-quickLightingZones">true</value>
+	</map>
+	<map name="SwUpdate">
+		<value name="LastCheckDate">2024-02-15</value>
+	</map>
+	<value name="defaultProfile">{6cd71b5b-3931-40b3-b349-10604b36d69e}</value>
+</config>
